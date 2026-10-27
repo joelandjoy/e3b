@@ -1,0 +1,46 @@
+DECODING UNIVERSE — EPISODE 3 WEBSITE
+
+You do not need to edit the code.
+
+STEP 1 — EXTRACT
+Extract this ZIP on your computer.
+Open the extracted folder. You should see index.html, package.json, and a folder named src.
+
+STEP 2 — UPLOAD TO GITHUB
+Open your GitHub repository.
+Choose Add file -> Upload files.
+Upload ALL the files and the src folder from inside the extracted folder.
+Do NOT upload the ZIP file itself.
+Do NOT put the project inside another folder in the repository.
+
+Your GitHub repository root must look like this:
+  index.html
+  package.json
+  vite.config.js
+  vercel.json
+  src/main.jsx
+  src/App.jsx
+  src/styles.css
+  src/episode.js
+  src/renderer.js
+
+STEP 3 — DEPLOY ON VERCEL
+Import this GitHub repository in Vercel.
+Use these settings if it asks:
+  Framework: Vite
+  Root Directory: ./
+  Build Command: npm run build
+  Output Directory: dist
+  Install Command: npm install
+Then click Deploy.
+
+IF VERCEL STILL SAYS IT CANNOT FIND /src/main.jsx:
+The files are in the wrong folder in GitHub. Check that src/main.jsx is at the repository root's src folder, not inside an extra nested project folder.
+
+ABOUT THE WEBSITE
+- It contains the silent, code-generated Episode 3 animation.
+- No Lovable narration, music, or sound effects are included.
+- The website renders the animation in your browser. It does not download a pre-made MP4 from Vercel.
+- Exporting the whole 15-minute video runs in real time. Keep the tab open while exporting.
+- Start with 1080p. 4K/8K depend on your browser and computer; 8K may not work on many devices.
+- Video format depends on the browser, usually WebM. MP4 is offered only if your browser supports it.
